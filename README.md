@@ -59,15 +59,7 @@ Autocompletar: Utiliza uma API para buscar informações de endereço com base n
 
 - Link do ViaCep: https://viacep.com.br/
 
+## Links de Referência
 
 https://github.com/juliadutraves/validacoes
 https://github.com/juliadutraves/form-CadEndereco-
-
-..........................
-
-Atualizações e Melhorias 🌟
-Este projeto passou por diversas atualizações, focando em aprimorar a experiência do usuário e a funcionalidade do formulário. As principais melhorias incluem:
-
-Validações de CPF e CEP: Implementamos validações robustas para garantir que os dados inseridos sejam corretos e formatados adequadamente. O CPF é verificado quanto à sua validade, enquanto o CEP é validado antes da busca por dados de endereço.
-Integração de Recursos de Outros Projetos: A utilização de técnicas de validação e manipulação de dados de outros projetos otimizou o código e a eficiência do formulário.
-Aprimoramento da Interface: Melhorias na interface do usuário foram realizadas para torná-la mais intuitiva e responsiva.
