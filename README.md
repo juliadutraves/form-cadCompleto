@@ -1,11 +1,13 @@
 ## Indice 🪼
 
-* [Descrição](#descrição-🪸)
+* [Atualizações e Melhorias](#atualizações-e-melhorias-🌟)
 * [GIF](#gif-🐚)
+* [Descrição](#descrição-🪸)
 * [Funcionalidades](#funcionalidades-🐡)
 * [tecnologias utilizadas](#tecnologias-utilizadas-🦑)
 * [Principais funções](#principais-funções-🐠)
 * [Referência](#referência-🐙)
+* [Links de Referência](#links-de-referência)
 
 ## Atualizações e Melhorias 🌟
 Este projeto passou por diversas atualizações, focando em aprimorar a experiência do usuário e a funcionalidade do formulário. As principais melhorias incluem:
