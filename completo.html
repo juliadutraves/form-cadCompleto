@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Cadastro E-Commerce</title>
 </head>
+
 <body>
     <div class="container">
         <h2>Formulário de Cadastro</h2>
@@ -24,38 +26,35 @@
 
             <label for="dob">Data de Nascimento:</label>
             <input type="date" id="dob" required>
+            <label for="CEPuser">CEP:</label>
+            <input type="text" id="cep" class="form-control" placeholder="Digite seu CEP aqui"><br>
 
-            <div class="container">
-                <label for="CEPuser">CEP:</label>
-                <input type="text" id="cep" class="form-control" placeholder="Digite seu CEP aqui"><br>
-         
-                <label for="rua">Rua:</label>
-                <input type="text" id="logradouro" class="form-control" placeholder="Sua rua ira aparecer aqui">
-         
-                <label for="numero">N.°:</label>
-                <input type="text" id="numero" class="form-control" placeholder="Seu N.° ira aparecer aqui">
-         
-                <label for="bairro"> Bairro:</label>
-                <input type="text" id="bairro" class="form-control" placeholder="Seu Bairro ira aparecer aqui">
-         
-                <label for="complemento">Complemento:</label>
-                <input type="text" id="complemento" class="form-control" placeholder="Seu complemento ira aparecer aqui">
-         
-                <!-- bloco dados da cidade e estado -->
-         
-                <label for="cidade">Cidade:</label>
-                <input type="text" id="localidade" class="form-control" placeholder="Sua cidade ira aparecer aqui">
-         
-                <label for="estado">Estado:</label>
-                <input type="text" id="uf" class="form-control"placeholder="Sua estado ira aparecer aqui">
-         
-                <button>Enviar</button>
-            </div>
+            <label for="rua">Rua:</label>
+            <input type="text" id="logradouro" class="form-control" placeholder="Sua rua ira aparecer aqui">
 
-        </form>
-        <div id="message"></div>
+            <label for="numero">N.°:</label>
+            <input type="text" id="numero" class="form-control" placeholder="Seu N.° ira aparecer aqui">
+
+            <label for="bairro"> Bairro:</label>
+            <input type="text" id="bairro" class="form-control" placeholder="Seu Bairro ira aparecer aqui">
+
+            <label for="complemento">Complemento:</label>
+            <input type="text" id="complemento" class="form-control" placeholder="Seu complemento ira aparecer aqui">
+
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="localidade" class="form-control" placeholder="Sua cidade ira aparecer aqui">
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="uf" class="form-control" placeholder="Sua estado ira aparecer aqui">
+
+            <button id="enviar">Enviar</button>
     </div>
+
+    </form>
+    <div id="message"></div>
     <script src="script.js"></script>
     <script src="cpf.js"></script>
 </body>
+
 </html>
