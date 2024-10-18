@@ -16,7 +16,7 @@ Este projeto passou por diversas atualizações, focando em aprimorar a experiê
 
 ## GIF 🐚
 
-![videocep](https://github.com/user-attachments/assets/6dfc72c4-c360-4896-b243-0da9171ab261)
+![form-cadcompleto](https://github.com/user-attachments/assets/e387b723-dd26-4684-afe1-9f1084a92c8d)
 
 ## Descrição 🪸
 Este projeto consiste em um formulário de cadastro que utiliza o CEP para preencher automaticamente os dados de endereço do usuário. Ao inserir o CEP, os campos de endereço, cidade e estado são preenchidos automaticamente, proporcionando uma experiência mais rápida e eficiente. Além disso, foram implementadas validações de CPF e CEP para garantir que os dados sejam inseridos corretamente. 
