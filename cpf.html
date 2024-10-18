@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" type="text/css" href="cpf.css"> 
+</head>
+<body>
+    <div>
+        <form id="cpfForm"> <!-- Formulário para entrada e validação do CPF -->
+            <label for="cpf">CPF:</label> <!-- Rótulo para o campo de entrada do CPF -->
+            <input type="text" id="cpf" name="cpf" maxlength="14" placeholder="Digite o CPF" aria-describedby="cpfHelp"> <!-- Campo de entrada do CPF com placeholder e descrição acessível -->
+            <button type="submit">Validar</button> <!-- Botão para submeter o formulário -->
+        </form>
+        <p id="message"></p> <!-- Parágrafo para exibir a mensagem de validação -->
+    </div>
+
+    <script src="cpf.js"></script> 
+</body>
+</html>
