@@ -21,6 +21,12 @@ Este projeto passou por diversas atualizações, focando em aprimorar a experiê
 ## Descrição 🪸
 Este projeto consiste em um formulário de cadastro que utiliza o CEP para preencher automaticamente os dados de endereço do usuário. Ao inserir o CEP, os campos de endereço, cidade e estado são preenchidos automaticamente, proporcionando uma experiência mais rápida e eficiente. Além disso, foram implementadas validações de CPF e CEP para garantir que os dados sejam inseridos corretamente. 
 
+## Funcionalidades 🐡
+Campo de CEP: O usuário insere o CEP e, ao perder o foco ou pressionar Enter, os dados de endereço são preenchidos automaticamente, após a validação do CEP.
+Validação de CEP: Antes da busca de dados, o CEP é validado quanto ao formato e existência.
+Validação de CPF: O CPF inserido pelo usuário é validado para garantir que seja um número válido e existente.
+Autocompletar: Utiliza uma API para buscar informações de endereço com base no CEP fornecido.
+
 ## Tecnologias utilizadas 🦑
 
 - HTML5
