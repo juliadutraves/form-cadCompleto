@@ -1,52 +1,61 @@
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #c2e593;
+    background-color: #e0f7e0; 
     margin: 0;
     padding: 20px;
 }
 
-.container {
-    max-width: 500px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+h1 {
+    text-align: center;
+    color: #2e7d32; 
 }
 
-h2 {
-    text-align: center;
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 label {
-    margin-top: 10px;
     display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #1e221e; 
 }
 
-input {
+.form-control {
     width: 100%;
     padding: 10px;
-    margin: 5px 0 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #a5d6a7; 
+    border-radius: 4px;
+    background-color: #f1f8e9; 
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #579b5a; 
+    background-color: #ffffff; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(72, 136, 76, 0.5);
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background: #5cb85c;
+    background-color: #388e3c; 
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     color: white;
     font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background: #4cae4c;
-}
-
-#message {
-    margin-top: 20px;
-    text-align: center;
-    color: red;
+    background-color: #358d39; 
 }
